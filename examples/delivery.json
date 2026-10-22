@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "run_id": "fixture-delivery-001",
+  "controller_id": "fixture",
+  "scenario": {
+    "seed": 7,
+    "world_size_m": [10, 10],
+    "start_m": [1, 1],
+    "goal_m": [3, 1],
+    "goal_tolerance_m": 0.2,
+    "robot_radius_m": 0.2,
+    "speed_mps": 1.0,
+    "dt_s": 0.05,
+    "duration_s": 30,
+    "sensor_delay_s": 0,
+    "obstacles": []
+  },
+  "termination": "goal",
+  "trace": [
+    {"t_s": 0, "position_m": [1, 1]},
+    {"t_s": 1, "position_m": [2, 1]},
+    {"t_s": 2, "position_m": [3, 1]}
+  ],
+  "events": []
+}
